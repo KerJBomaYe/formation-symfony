@@ -1,40 +1,15 @@
-NewProj Formation Symfony 6 - GIT
+# New Proj formation symfony 6 - GITHUB
 
-# this is a H1
-## this is a H2
-*this will be in italique*
-**this will be bold**
+here is the code for my project
 
-this
-will be 
-written on 
-the same line
+## How to install code
 
-but not this one
+....
 
+## Documentation 
 
-this is a whole new paragraph
-
-
-to make list add a dash or numbers
-
--iyoujilkjml
--holjhkjm
--hoilkuhjpolk
-
-
-1. hoilkhjmoljk^pok
-2. tgoiulyhilkjholm 
-3. mkhkljhjilkjkù
-
-[this is a link](https://github.com/KerJBomaYe/formation-symfony.git)
-
-![this is an imahge](https://cdn.pixabay.com/photo/2022/01/30/19/46/school-6982073_1280.jpg)
+- [Click here to see Doc](/doc/tuto_markdown.md)
 
 
 
-`this is code`
 
-```php
- $this -> test();
-```
