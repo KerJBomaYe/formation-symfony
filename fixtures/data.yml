@@ -14,3 +14,26 @@ App\Entity\Ingredient:
   ingredient_aleatoire_{1..30}:
     name: "<word()>"
     price: "<randomFloat(2, 0.1, 1.0)>"
+
+
+App\Entity\Dish:
+  dish_{1..20}:
+    name: "<word()>"
+    price: "<randomFloat(2, 6, 10)>"
+    description: "<sentence()>"
+    type: "dish"
+    image: "<imageUrl(500, 400, 'Dish')>" 
+    ingredients: "<numberBetween(4, 10)>x @ingredient_*"
+  drink_{1..20}:
+    name: "<word()>"
+    price: "<randomFloat(2, 6, 10)>"
+    description: "<sentence()>"
+    type: "drink"
+    image: "<imageUrl(500, 400, 'Dish')>" 
+  dessert_{1..20}:
+    name: "<word()>"
+    price: "<randomFloat(2, 6, 10)>"
+    description: "<sentence()>"
+    type: "dessert"
+    image: "<imageUrl(500, 400, 'Dish')>" 
+   
